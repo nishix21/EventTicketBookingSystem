@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Booking - EventSphere</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Event Ticket Booking System</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="events.html">Events</a>
+<a href="booking.html">Booking</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="booking-section">
+
+<h2>Book Your Ticket</h2>
+
+<div class="booking-form">
+
+<form onsubmit="validateForm(event)">
+
+<label>Name</label>
+<input type="text" id="name" placeholder="Enter your name">
+
+<label>Email</label>
+<input type="email" id="email" placeholder="Enter your email">
+
+<label>Select Event</label>
+<select id="event">
+<option value="">Select Event</option>
+<option value="Music Concert">Music Concert</option>
+<option value="Cricket Match">Cricket Match</option>
+<option value="Movie Night">Movie Night</option>
+</select>
+
+<label>Number of Tickets</label>
+<input type="number" id="tickets" placeholder="Enter tickets">
+
+<button type="submit">Confirm Booking</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 EventSphere | Chennai, India</p>
+
+</footer>
+
+</body>
+
+</html>
